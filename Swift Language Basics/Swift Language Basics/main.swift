@@ -45,6 +45,34 @@ else {
     print("Sorry you are so poor.")
 }
 
+var force: Float = mass*acceleration
+
+print("force = \(force)")
+
+print("\(distance) is the distance.")
+
+if lost && expensive == true {
+    print("I am really sorry! I will get the manager.")
+}
+
+if lost == true && expensive == false {
+    print("Here is coupon for 10% off.")
+}
+
+switch choice
+{
+    case 1:
+        print("You chose 1.")
+    case 2:
+        print("You chose 2.")
+    case 3:
+        print("You chose 3.")
+    default:
+        print("You made an unknown choice.")
+}
+
+print("\(integral) is an integral.")
+
 
 
 
