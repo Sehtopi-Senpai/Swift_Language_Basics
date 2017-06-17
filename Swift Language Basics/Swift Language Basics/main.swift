@@ -73,6 +73,19 @@ switch choice
 
 print("\(integral) is an integral.")
 
+var i: Int = 5
 
+for i in 5...10 {
+    print("i = \(i)")
+}
+
+var age: Int = 0
+
+while age < 6 {
+    print("age = \(age)")
+    age += 1
+}
+
+print("\(greeting) \(name)")
 
 
